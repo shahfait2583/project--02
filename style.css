@@ -174,6 +174,65 @@ body{
 /* card part end */
 
 
+/* about part start */
+
+#about-area{
+    padding-bottom: 70px;
+}
+.about-header{
+    text-align: center;
+    padding: 0 200px;
+    padding-bottom: 30px;
+}
+.about-header h2{
+    text-transform: capitalize;
+    font-size: 44px;
+}
+.about-header p{
+    margin-top: -20px;
+    color: #555;
+}
+.about-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about-itam{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.about-itam-img{
+    padding-right: 30px;
+}
+.about-itam-img i{
+    font-size: 50px;
+    color: #E02C6D;
+}
+.about-itam-text h3{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #242424;
+}
+
+.about-itam-text p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #555;
+    margin-top: -15px;
+}
+.about-part-two{
+    
+}
+.about-part-two img{
+    width: 60%;
+    padding-top: 30px;
+    padding-left: 145px;
+}
+
+/* about part end */
+
+
 
 
 
