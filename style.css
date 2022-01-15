@@ -32,6 +32,27 @@ body{
 
 /* common css end */
 
+/* header part start */
+.header-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.header-nav ul{
+    
+}
+.header-nav ul li{
+    display: inline-block;
+}
+.header-nav ul li a{
+    color: #000;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+
+/* header part end */
+
 
 /* hero part start */
 
@@ -65,6 +86,9 @@ body{
 }
 .hero-image-part{
     margin-left: 70px;
+}
+.hero-image-part img{
+    width: 70%;
 }
 
 /* hero -area end */
