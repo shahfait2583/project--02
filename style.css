@@ -98,7 +98,7 @@ body{
     margin-left: 70px;
 }
 .hero-image-part img{
-    width: 70%;
+    width: 90%;
 }
 
 /* hero -area end */
@@ -345,7 +345,7 @@ body{
             grid-template-columns: 1fr;
         }
         .hero-text-part h1 {
-            font-size: 22px;
+            font-size: 32px;
             line-height: 49px;
         }
         .hero-text-part p {
@@ -356,10 +356,11 @@ body{
         .hero-text-part{
             text-align: center;
         }
+        
         .hero-image-part {
-            margin-top: 85px;
+            margin-left: 35px;
+            margin-top: 43px;
         }
-
        
         .hero-image-part img{
             width: 100%;
